@@ -1,18 +1,10 @@
 
 # Summary of code changes
-- [ ] _item_
-- [ ] _item_
-- [ ] Add unit test(s) for touched functions
-- [ ] Add integration test(s) for touched user flows
-
+- [ ] _Ideally, your commit history reflects this list._
+- [ ] _Ideally, your commit history reflects this list._
 
 # Result
 _What should happen as a result of these code changes?_
-
-## Steps for manual testing
-1. 
-2. 
-3. 
 
 ## It works on my machine
 _Attach screenshots/video_
@@ -24,20 +16,28 @@ _Attach screenshots/video_
 ---
 
 # Reviewing this PR
-Inspired by [Conventional Comments](https://conventionalcomments.org/), please use the following structure on PR comments:
+Use [Conventional Comments](https://conventionalcomments.org/) when leaving PR feedback.
 
 `<label> (<(non-)blocking>): <note>`
-
-Example:
-
-`nit (non-blocking): convert function signature to options object rather than named parameters`
 
 ## Standard labels
 |--|use case|
 |--|--|
-|nit|Unlikely to result in significant code changes|
-|request|Potentially results in significant code changes|
-|split|Recommendation to extract to separate PR|
-|gimme|Recommendation to add to current PR|
-|question|Request information/explanation|
-|praise|Recognize best practices|
+|nit|Minor change request|
+|actionable|Major change request|
+|discussion|Question or commentary|
+
+Examples:
+
+`nit (non-blocking): convert function signature to options object rather than named parameters`
+
+`nit (blocking): use [naming convention](<link to Notion>) on this function`
+
+# Code Review Checklist
+- [ ] Touched code uses naming conventions
+- [ ] Touched code uses our patterns
+- [ ] Touched code is easy to maintain
+- [ ] Screenshot of all UX states
+- [ ] Video showing it working
+- [ ] Adds unit test(s) for touched functions
+- [ ] Adds integration test(s) to cover full scope of code changes
