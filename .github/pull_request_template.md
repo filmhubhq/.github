@@ -40,5 +40,4 @@ Examples:
 - [ ] Touched code is easy to maintain
 - [ ] Screenshot of all UX states
 - [ ] Video showing it working
-- [ ] Adds unit test(s) for touched functions
 - [ ] Adds integration test(s) to cover full scope of code changes
