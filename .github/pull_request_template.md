@@ -1,17 +1,25 @@
-
 # Summary of code changes
 - [ ] _Ideally, your commit history reflects this list._
-- [ ] _Ideally, your commit history reflects this list._
 
-# Result
+## Result
 _What should happen as a result of these code changes?_
+
+## Manual testing (QA)
+1. Visit <preview_deploy>.filmhub.com
+2. 
 
 ## It works on my machine
 _Attach screenshots/video_
 
 |before|after|
 |--|--|
-|<before_file.png>|<after_file.png>|
+|_replace_with_before_file.png_|_replace_with_after_file.png_|
+
+# Ready for Review Checklist
+- [ ] New javascript files are written with TypeScript
+- [ ] All deliverables in Linear issue are checked off
+- [ ] Touched code uses [documented patterns](https://www.notion.so/filmhub/Code-patterns-style-guide-944c3fa9d8f04035a298ad5684cea007?pvs=4)
+- [ ] Integration tests follow [documented best practices](https://www.notion.so/filmhub/Testing-Best-Practices-c9d1a43b5fea4c6c94465728e18ba35c?pvs=4)
 
 ---
 
@@ -32,12 +40,3 @@ Examples:
 `nit (non-blocking): convert function signature to options object rather than named parameters`
 
 `nit (blocking): use [naming convention](<link to Notion>) on this function`
-
-# Code Review Checklist
-- [ ] All deliverables in Linear issue are complete
-- [ ] Touched code uses naming conventions
-- [ ] Touched code uses our patterns
-- [ ] Touched code is easy to maintain
-- [ ] Screenshot of all UX states
-- [ ] Video showing it working
-- [ ] Adds integration test(s) to cover full scope of code changes
